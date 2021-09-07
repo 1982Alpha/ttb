@@ -1,0 +1,79 @@
+<div class="container">
+    <h3 class="title">Reative Register Form</h3>
+    <br><br>
+    <form [formGroup]="userForm">
+    <div class="row">
+        <div class="row col-sm-5">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" formControlName="email"  class="form-control" autocomplete="off" >
+                <span class="help-block" >Please Enter Valid Name!</span>
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" id="password" name="password" formControlName="password"  class="form-control" autocomplete="off" >
+                <span class="help-block" >Please Enter Valid Name!</span>
+            </div>            
+           
+            <!--
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <input type="radio" value="male" formControlName="gender" name="gender">Male
+                <input type="radio" value="female" formControlName="gender" name="gender">Female
+            </div>
+            <div class="form-group">
+                <label for="isMarried">Married</label>&nbsp;&nbsp;&nbsp;
+                <input type="checkbox"  name="isMarried" formControlName="isMarried" >
+            </div>         
+    </div>
+    <div class="row col-sm-2"></div>
+    <div class="row col-sm-5">
+        <div class="formgroup">
+            <div class="formgroup">
+                <label for="country">Country</label>
+                <select name="country" id="country" formControlName="country"  class="form-control">
+                    <option >
+                       
+                    </option>
+                </select>
+            </div>            
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" formControlName="city" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street" formControlName="street" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" name="pincode" formControlName="pincode " class="form-control">
+        </div>
+        -->
+        <div class="form-group">
+            <button class="btn btn-info" >Signup</button>
+           </div>
+    </div>
+   
+    </div>
+    </form>
+    <!--    <table class="table">
+        <tr>
+        
+                <td>Fname</td>
+                <td>Lname</td>
+                <td>Email</td>
+           
+        </tr>
+        <tr *ngFor="let d of myData">
+        
+            <td>{{d.firstname}}</td>
+            <td>{{d.lastname}}</td>
+            <td>{{d.email}}</td>
+       
+    </tr>   
+    </table>
+    -->
+
+</div>

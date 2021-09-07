@@ -1,0 +1,13 @@
+<div  class="coloumnPan title">
+    <h1>Menu</h1>   
+ 
+    <button type="button" class="btn btn-success" (click)="gotoRightPage()">Success</button>
+    <p>Counter : {{_maths.Counter}}</p>
+
+    <div>
+        <tr *ngFor="let s of subjectChild">
+            <td>{{s.id}}</td>
+            <td>{{s.name}}</td>
+        </tr>
+    </div>
+</div>
